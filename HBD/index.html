@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Nandini KR</title>
+
+  <!-- Elegant Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #f7e7ce, #fdf6ec);
+      color: #4a3b2a;
+      text-align: center;
+    }
+
+    .container {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-weight: 300;
+      font-size: 1.4rem;
+      margin-bottom: 40px;
+    }
+
+    .message {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      background: rgba(255,255,255,0.6);
+      padding: 30px;
+      border-radius: 12px;
+      margin-bottom: 50px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-bottom: 50px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 12px;
+      transition: transform 0.4s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      font-size: 0.9rem;
+      opacity: 0.8;
+      margin-top: 40px;
+    }
+
+    /* Soft floating animation */
+    .floating {
+      animation: float 6s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Background Music -->
+  <audio autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="container">
+    <h1 class="floating">Happy Birthday</h1>
+    <h2>🌸 Nandini KR 🌸</h2>
+
+    <div class="message">
+      <p>
+        Dear Mom,<br><br>
+        On your special day, I just want you to know how deeply loved and appreciated you are.
+        Your kindness, strength, and grace light up every life you touch — especially mine.
+        You have given me more love and support than words can ever express.
+        <br><br>
+        May this birthday bring you peace, happiness, and moments as beautiful as your heart.
+        Thank you for being my constant guide, my comfort, and my greatest blessing.
+        <br><br>
+        With all my love, always 💖
+      </p>
+    </div>
+
+    <h2>📸 Beautiful Memories</h2>
+
+    <div class="gallery">
+      <!-- Replace these with your mom's photos -->
+      <img src="photo1.jpg" alt="Memory 1">
+      <img src="photo2.jpg" alt="Memory 2">
+      <img src="photo3.jpg" alt="Memory 3">
+      <img src="photo4.jpg" alt="Memory 4">
+    </div>
+
+    <footer>
+      Made with love for the most wonderful mom 💐
+    </footer>
+  </div>
+
+</body>
+</html>
